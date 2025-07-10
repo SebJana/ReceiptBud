@@ -1,0 +1,43 @@
+# Secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.egg-info/
+venv/
+env/
+.venv/
+ENV/
+*.log
+
+# Build artifacts
+dist/
+build/
+*.egg
+
+# PostgreSQL volume
+pgdata/
+
+# Docker
+*.tar
+*.bak
+*.pid
+docker-compose.override.yml
+
+# Pytest cache
+.pytest_cache/
+.tox/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
